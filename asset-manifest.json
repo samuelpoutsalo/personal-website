@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.1e059638.css",
-    "main.js": "/personal-website/static/js/main.7ad2dbb8.js",
-    "static/media/selfie.jpg": "/personal-website/static/media/selfie.1a1ad840df8635af8c04.jpg",
-    "static/media/countdown.png": "/personal-website/static/media/countdown.adf2e36821120d32fb5b.png",
-    "static/media/haaga.jpg": "/personal-website/static/media/haaga.2fbd4751b0c908a0bc6f.jpg",
-    "static/media/multistep.png": "/personal-website/static/media/multistep.754e09c4394c3e501188.png",
-    "static/media/sass.png": "/personal-website/static/media/sass.91714f748188b46f4e33.png",
-    "static/media/python.png": "/personal-website/static/media/python.6a5cbc319ab3ddf8ef92.png",
-    "static/media/java.png": "/personal-website/static/media/java.ddf8676bd569fe01ab44.png",
-    "static/media/c-sharp.png": "/personal-website/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
-    "static/media/c-.png": "/personal-website/static/media/c-.24a8f93854ab092f17a7.png",
-    "static/media/under.png": "/personal-website/static/media/under.d31a3159bec8bdbf76f5.png",
-    "static/media/html5.png": "/personal-website/static/media/html5.2c6a71b184b518b01b9a.png",
-    "static/media/css-3.png": "/personal-website/static/media/css-3.463e319bad8e0edf1ef7.png",
-    "static/media/uk.png": "/personal-website/static/media/uk.451dfe9b54444ba11cd6.png",
-    "static/media/typescript.png": "/personal-website/static/media/typescript.af108db04a54d784da9b.png",
-    "static/media/javascript.png": "/personal-website/static/media/javascript.3dfb665e058d08c99f28.png",
-    "index.html": "/personal-website/index.html",
-    "main.1e059638.css.map": "/personal-website/static/css/main.1e059638.css.map",
-    "main.7ad2dbb8.js.map": "/personal-website/static/js/main.7ad2dbb8.js.map"
+    "main.css": "/static/css/main.1e059638.css",
+    "main.js": "/static/js/main.d5fc2e8d.js",
+    "static/media/selfie.jpg": "/static/media/selfie.1a1ad840df8635af8c04.jpg",
+    "static/media/countdown.png": "/static/media/countdown.adf2e36821120d32fb5b.png",
+    "static/media/haaga.jpg": "/static/media/haaga.2fbd4751b0c908a0bc6f.jpg",
+    "static/media/multistep.png": "/static/media/multistep.754e09c4394c3e501188.png",
+    "static/media/sass.png": "/static/media/sass.91714f748188b46f4e33.png",
+    "static/media/python.png": "/static/media/python.6a5cbc319ab3ddf8ef92.png",
+    "static/media/java.png": "/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/c-sharp.png": "/static/media/c-sharp.4a32f53d425c7ad4cb05.png",
+    "static/media/c-.png": "/static/media/c-.24a8f93854ab092f17a7.png",
+    "static/media/under.png": "/static/media/under.d31a3159bec8bdbf76f5.png",
+    "static/media/html5.png": "/static/media/html5.2c6a71b184b518b01b9a.png",
+    "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/uk.png": "/static/media/uk.451dfe9b54444ba11cd6.png",
+    "static/media/typescript.png": "/static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/javascript.png": "/static/media/javascript.3dfb665e058d08c99f28.png",
+    "index.html": "/index.html",
+    "main.1e059638.css.map": "/static/css/main.1e059638.css.map",
+    "main.d5fc2e8d.js.map": "/static/js/main.d5fc2e8d.js.map"
   },
   "entrypoints": [
     "static/css/main.1e059638.css",
-    "static/js/main.7ad2dbb8.js"
+    "static/js/main.d5fc2e8d.js"
   ]
 }
