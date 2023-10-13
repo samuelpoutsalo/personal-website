@@ -16,6 +16,8 @@ import under from "./images/under.png";
 import countdown from "./images/countdown.png";
 import multistep from "./images/multistep.png";
 import hh from "./images/haaga.jpg";
+import firebase_png from "./images/firebase.png";
+import sql_png from "./images/sql.png";
 
 import "./App.scss";
 
@@ -198,6 +200,7 @@ function App() {
                 <img src={python_png} />
                 <img src={c_plusplus_png} />
                 <img src={c_sharp_png} />
+                <img src={sql_png} />
               </div>
             </div>
           </div>
