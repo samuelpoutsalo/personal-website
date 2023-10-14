@@ -67,11 +67,19 @@ h3 {
   margin-left: 1rem;
 }
 
+a {
+  text-decoration: none;
+}
+
 li {
   list-style-type: none;
 }
 
 // Main
+
+.haaga {
+  align-self: center;
+}
 
 section {
   padding: 10rem;
@@ -94,6 +102,7 @@ section {
   display: flex;
   position: absolute;
   bottom: 20rem;
+  align-self: flex-start;
 }
 
 .user-text {
@@ -113,16 +122,22 @@ section {
   display: flex;
   justify-content: center;
   height: 40rem;
+  align-items: center;
   background-color: $color-background-white;
 }
 
 .about-container {
+  align-items: center;
   display: flex;
   width: 100rem;
 }
 
 #techId {
   cursor: pointer;
+}
+
+#techId:hover {
+  color: $color-font-head-blue;
 }
 
 .projects {
@@ -153,7 +168,7 @@ section {
   z-index: 3;
   position: sticky;
   top: 0;
-  max-height: 8rem;
+  height: 3.5rem;
   background-color: $color-background-white;
   box-shadow: 0 1px 1px $color-background-shadow;
   margin-bottom: 0;
@@ -162,8 +177,8 @@ section {
   justify-content: space-between;
 }
 
-.mobile-nav {
-  display: none;
+.mobile-nav a:hover {
+  color: $color-font-head-blue;
 }
 
 .nav-mobile-icon {
@@ -173,6 +188,10 @@ section {
   position: absolute;
   right: 6rem;
   display: none;
+}
+
+.nav-mobile-icon:hover {
+  fill: $color-font-head-blue;
 }
 
 .nav-container {
@@ -261,13 +280,14 @@ section {
 .text-preview {
   margin-top: 2.5rem;
   width: 36rem;
-  padding-right: 2rem;
+
   align-items: center;
 }
 
 .text-preview p {
   font-size: 1.7rem;
   margin-left: 1rem;
+  margin-right: 2rem;
 }
 
 .text-preview h3 {
@@ -279,13 +299,13 @@ section {
 .used-code {
   display: flex;
   position: absolute;
-  bottom: 8rem;
+  bottom: 7rem;
 }
 
 .code-links {
   position: absolute;
   display: flex;
-  bottom: 5rem;
+  bottom: 4rem;
   padding-right: 6rem;
 }
 
@@ -339,6 +359,10 @@ section {
   display: flex;
 }
 
+.location svg:hover {
+  fill: $color-font-head-blue;
+}
+
 footer {
   position: relative;
   height: 10rem;
@@ -363,8 +387,28 @@ footer svg {
 // Media
 
 @media only screen and (max-width: 1020px) {
+  .img-size {
+    margin-right: 0rem;
+  }
+
+  .haaga {
+    width: 41rem;
+  }
+
+  .code-links {
+    bottom: 2rem;
+  }
+
+  .used-code {
+    bottom: 5rem;
+  }
+
   .nav-mobile-icon {
     display: block;
+  }
+
+  .text-preview p {
+    margin-right: 0.8rem;
   }
 
   .footer-1 {
@@ -385,7 +429,7 @@ footer svg {
     width: 100%;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 90vh;
     z-index: 2;
     background-color: $color-background-light;
   }
@@ -396,6 +440,7 @@ footer svg {
 
   .mobile-nav li {
     padding-bottom: 3rem;
+    margin-right: 2rem;
   }
 
   .nav-container {
@@ -452,6 +497,8 @@ footer svg {
 
   .projects {
     height: 210rem;
+    display: flex;
+    justify-content: center;
   }
 
   .projects-container {
@@ -459,6 +506,7 @@ footer svg {
   }
 
   .text-preview {
+    width: 46rem;
     margin-top: 0;
     align-self: center;
   }
@@ -470,7 +518,7 @@ footer svg {
   .site-preview {
     flex-direction: column;
     width: 49.9rem;
-    height: 60rem;
+    height: 58rem;
     justify-content: start;
     align-content: center;
   }
@@ -485,10 +533,14 @@ footer svg {
     margin-top: 1rem;
   }
 
+  .flip-text .light {
+    margin-right: 7rem;
+  }
+
   .about {
     display: flex;
     justify-content: center;
-    height: 70rem;
+    height: 80rem;
     background-color: $color-background-white;
   }
 
@@ -517,18 +569,18 @@ footer svg {
 
   .flip-text .used-code #id1 {
     z-index: 1;
-    top: -5rem;
+    top: -6rem;
   }
 
   .flip-text .used-code #id2 {
     z-index: 1;
-    top: -5rem;
+    top: -6rem;
     left: 8.5rem;
   }
 
   .flip-text .used-code #id3 {
     z-index: 1;
-    top: -5rem;
+    top: -6rem;
     left: 16.5rem;
   }
 
@@ -547,6 +599,16 @@ footer svg {
   }
 
   @media only screen and (max-width: 518px) {
+    .nav-mobile-icon {
+      width: 2.8rem;
+      height: 2.8rem;
+      right: 4rem;
+    }
+
+    .nav {
+      height: 3rem;
+    }
+
     h1 {
       font-size: 4rem;
     }
@@ -562,12 +624,32 @@ footer svg {
     .black {
       font-size: 1.5rem;
     }
+
+    .date {
+      font-size: 1.3rem;
+    }
     .light {
+      font-size: 1.5rem;
+    }
+
+    .text-preview p {
       font-size: 1.5rem;
     }
 
     .projects {
       height: 190rem;
+    }
+
+    .flip-text .light {
+      margin-right: 3rem;
+    }
+
+    .user-skills {
+      bottom: 3rem;
+    }
+
+    .basic-skills {
+      bottom: -6rem;
     }
 
     .flip-text .used-code #id1 {
@@ -599,17 +681,19 @@ footer svg {
 
     .selfie {
       top: -5rem;
-      width: 30rem;
-      height: 30rem;
+      width: 28rem;
+      height: 28rem;
     }
 
     .skill-icons img {
       width: 3rem;
       height: 3rem;
+      border-radius: 1rem;
+      margin-right: 1rem;
     }
 
     .haaga {
-      width: 30rem;
+      width: 28rem;
     }
 
     .image-preview img {
@@ -625,7 +709,7 @@ footer svg {
     }
 
     .focused-text {
-      top: 28rem;
+      top: 26rem;
     }
 
     .home-container {
@@ -633,10 +717,6 @@ footer svg {
     }
     .home-text {
       width: 29rem;
-    }
-
-    .user-skills {
-      bottom: -3rem;
     }
 
     .contact-container {
@@ -656,11 +736,165 @@ footer svg {
 
     .site-preview {
       width: 29.9rem;
-      height: 54rem;
+      height: 50rem;
     }
 
     .text-preview {
       width: 26rem;
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .nav-mobile-icon {
+      width: 2.6rem;
+      height: 2.6rem;
+      right: 3rem;
+    }
+
+    .nav {
+      height: 2.8rem;
+    }
+
+    h1 {
+      font-size: 3.5rem;
+    }
+
+    h2 {
+      font-size: 1.9rem;
+    }
+
+    h3 {
+      font-size: 1.4rem;
+    }
+
+    .black {
+      font-size: 1.4rem;
+    }
+
+    .date {
+      font-size: 1.2rem;
+    }
+    .light {
+      font-size: 1.4rem;
+    }
+
+    .projects {
+      height: 170rem;
+    }
+
+    .basic-skills {
+      bottom: -6rem;
+    }
+
+    .basic-skills h3 {
+      margin-right: 0rem;
+    }
+
+    .flip-text .used-code #id1 {
+      z-index: 1;
+      top: -6rem;
+    }
+
+    .flip-text .used-code #id2 {
+      z-index: 1;
+      top: -6rem;
+      left: 6.15rem;
+    }
+
+    .flip-text .used-code #id3 {
+      z-index: 1;
+      top: -6rem;
+      left: 12rem;
+    }
+
+    .flip-text h3 {
+      position: absolute;
+      top: 13rem;
+    }
+
+    .flip-text p {
+      position: absolute;
+      top: 18rem;
+    }
+
+    .selfie {
+      top: -2rem;
+      width: 23rem;
+      height: 23rem;
+    }
+
+    .skill-icons img {
+      width: 2.5rem;
+      height: 2.5rem;
+      justify-self: flex-start;
+      border-radius: 1rem;
+    }
+
+    .haaga {
+      width: 23rem;
+    }
+
+    .image-preview img {
+      width: 20rem;
+    }
+
+    .home {
+      height: 65rem;
+    }
+
+    .used-code p {
+      margin: 1rem 0.3rem;
+      padding: 0.5rem;
+    }
+
+    .focused-text {
+      top: 23rem;
+    }
+
+    .home-container {
+      width: 25rem;
+    }
+    .home-text {
+      width: 24rem;
+    }
+
+    .contact-container {
+      width: 25rem;
+    }
+
+    .contact {
+      height: 40rem;
+    }
+
+    .about {
+      height: 73rem;
+    }
+
+    .text-preview p {
+      font-size: 1.4rem;
+    }
+
+    .about-container {
+      width: 25rem;
+    }
+    .projects-container {
+      width: 25rem;
+    }
+
+    .site-preview {
+      width: 24.9rem;
+      height: 46rem;
+    }
+
+    .text-preview {
+      width: 21rem;
+    }
+
+    .mail,
+    .phone,
+    .location {
+      margin-top: 4rem;
+      margin-right: 0rem;
+      display: flex;
     }
   }
 }

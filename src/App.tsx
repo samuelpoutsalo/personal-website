@@ -57,7 +57,7 @@ function App() {
   };
 
   const notReady = () => {
-    window.alert("API website will be by next week");
+    window.alert("API website will be ready sometime next week");
   };
 
   return (
@@ -296,10 +296,10 @@ function App() {
                   </h3>
                   <p className="light">
                     An advanced skill level challenge from a site called
-                    Frontend Mentor. In this site the user is able to: Complete
-                    each step of the sequence. Go back to a previous step to
-                    update their selections. See a summary of their selections
-                    on the final step and confirm their order.
+                    Frontend Mentor. In which the user is able to: Complete each
+                    step of the sequence. Go back to a previous step to update.
+                    See a summary of their selections on the final step and
+                    confirm their order.
                   </p>
                   <div className="used-code">
                     <p id="id1">React</p>
@@ -387,20 +387,22 @@ function App() {
             <h3>CONTACT</h3>
             <h2>I'm looking for work! Feel free to send me a message!</h2>
             <div className="info">
-              <div className="location">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M24 22.586l-2.823-2.823c.526-.792.836-1.74.836-2.763 0-2.762-2.238-5-5-5s-5 2.238-5 5 2.238 5 5 5c1.016 0 1.957-.307 2.746-.827l2.827 2.827 1.414-1.414zm-9.987-5.586c0-1.654 1.346-3 3-3s3 1.346 3 3-1.346 3-3 3-3-1.346-3-3zm-4 0l.002-.034-3.015 2.175v-13.068l4-2.886v10.247c.508-.854 1.189-1.591 2-2.161v-8.086l4 2.886v3.927h.013c.336 0 .664.032.987.078v-4.007l4-2.479v8.504c1.188 1.208 1.936 2.844 2 4.653v-16.749l-6.455 4-5.545-4-5.545 4-6.455-4v18l6.455 4 3.91-2.82c-.226-.687-.352-1.419-.352-2.18zm-4.013 2.365l-4-2.479v-13.294l4 2.479v13.294z" />
-                </svg>
-                <div className="info-text">
-                  <p className="black">Location</p>
-                  <p className="light">Kalasatama, Helsinki, Finland</p>
+              <a href="https://www.google.com/maps/place/Kalasatama,+Helsinki/@60.1847579,24.9748421,16z/data=!3m1!4b1!4m6!3m5!1s0x469209645c6f494b:0xb8ab7684b8a7ea10!8m2!3d60.1855264!4d24.9797648!16s%2Fg%2F121s4dmv?entry=ttu">
+                <div className="location">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M24 22.586l-2.823-2.823c.526-.792.836-1.74.836-2.763 0-2.762-2.238-5-5-5s-5 2.238-5 5 2.238 5 5 5c1.016 0 1.957-.307 2.746-.827l2.827 2.827 1.414-1.414zm-9.987-5.586c0-1.654 1.346-3 3-3s3 1.346 3 3-1.346 3-3 3-3-1.346-3-3zm-4 0l.002-.034-3.015 2.175v-13.068l4-2.886v10.247c.508-.854 1.189-1.591 2-2.161v-8.086l4 2.886v3.927h.013c.336 0 .664.032.987.078v-4.007l4-2.479v8.504c1.188 1.208 1.936 2.844 2 4.653v-16.749l-6.455 4-5.545-4-5.545 4-6.455-4v18l6.455 4 3.91-2.82c-.226-.687-.352-1.419-.352-2.18zm-4.013 2.365l-4-2.479v-13.294l4 2.479v13.294z" />
+                  </svg>
+                  <div className="info-text">
+                    <p className="black">Location</p>
+                    <p className="light">Kalasatama, Helsinki, Finland</p>
+                  </div>
                 </div>
-              </div>
+              </a>
               <div className="mail">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
