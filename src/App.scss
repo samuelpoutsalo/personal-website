@@ -67,6 +67,10 @@ h3 {
   margin-left: 1rem;
 }
 
+.link:hover {
+  color: $color-font-head-blue;
+}
+
 a {
   text-decoration: none;
 }
@@ -177,6 +181,10 @@ section {
   justify-content: space-between;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .mobile-nav a:hover {
   color: $color-font-head-blue;
 }
@@ -207,7 +215,6 @@ section {
 }
 
 .flags img {
-  display: none;
   width: 3.2rem;
   border: solid black 1px;
   cursor: pointer;
@@ -599,6 +606,21 @@ footer svg {
   }
 
   @media only screen and (max-width: 518px) {
+    .flags img {
+      width: 2.5rem;
+      height: 2.5rem;
+    }
+
+    #fin {
+      position: absolute;
+      left: 8rem;
+    }
+
+    #uk {
+      position: absolute;
+      left: 4rem;
+    }
+
     .nav-mobile-icon {
       width: 2.8rem;
       height: 2.8rem;
@@ -895,6 +917,17 @@ footer svg {
       margin-top: 4rem;
       margin-right: 0rem;
       display: flex;
+    }
+  }
+
+  @media only screen and (max-width: 270px) {
+    * {
+      font-size: 9px;
+    }
+  }
+  @media only screen and (max-width: 240px) {
+    * {
+      font-size: 8px;
     }
   }
 }
