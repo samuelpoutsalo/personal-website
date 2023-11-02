@@ -145,7 +145,7 @@ section {
 }
 
 .projects {
-  height: 150rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -221,6 +221,10 @@ section {
   margin-right: 1rem;
   height: 3.2rem;
   border-radius: 10rem;
+}
+
+.flags img:hover {
+  border: solid $color-font-head-blue 1.9px;
 }
 
 .selfie {
@@ -503,7 +507,6 @@ footer svg {
   }
 
   .projects {
-    height: 210rem;
     display: flex;
     justify-content: center;
   }
@@ -659,7 +662,7 @@ footer svg {
     }
 
     .projects {
-      height: 190rem;
+      //  height: 190rem;
     }
 
     .flip-text .light {
@@ -800,7 +803,7 @@ footer svg {
     }
 
     .projects {
-      height: 170rem;
+      //  height: 170rem;
     }
 
     .basic-skills {
